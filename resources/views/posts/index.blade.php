@@ -5,7 +5,7 @@
             <a href="{{route('dashboard')}}" class="mx-auto bg-blue-500 text-white h-8 w-37  px-3 py-1 rounded-sm hover:bg-black ">Add Post</a>
         </div>
        
-    <div class="grid grid-cols-2 gap-6">
+    <div class="grid grid-cols-3 gap-6">
             @foreach ($posts as $post)
                  @include('components.postCard', ['post' => $post])
             @endforeach

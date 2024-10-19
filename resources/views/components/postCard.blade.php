@@ -4,9 +4,9 @@
     {{-- cover image --}}
     <div class="mb-4 ">
         @if ($post->image)
-            <img src="{{asset('storage/'. $post->image)}}" alt="" class=" rounded-lg w-full">  
+            <img src="{{asset('storage/'. $post->image)}}" alt="" class=" rounded-lg w-full h-2/3">  
         @else
-            <img src="{{asset('storage/posts_images/default.jfif')}}" alt="" class=" rounded-lg w-full">   
+            <img src="{{asset('storage/posts_images/default.jpg')}}" alt="" class=" rounded-lg w-full">   
         @endif
     </div>
     {{-- Title --}}
